@@ -75,6 +75,18 @@
 		"panelTitle.activeForeground": "#bebec0",
 		"panelTitle.inactiveForeground": "#808080",
 
+		"terminal.ansiBrightBlue": "#82AAFF",
+		"terminal.ansiBrightCyan": "#89DDFF",
+		"terminal.ansiBrightYellow": "#FFCB6B",
+		"terminal.ansiBrightMagenta": "#C792EA",
+		"terminal.ansiBrightRed": "#ff4f66",
+
+		"terminal.ansiBlue": "#7598e2",
+		"terminal.ansiCyan": "#89DDFF",
+		"terminal.ansiYellow": "#FFCB6B",
+		"terminal.ansiMagenta": "#C792EA",
+		"terminal.ansiRed": "#ff4f66",
+
 		"scrollbarSlider.activeBackground": "#2c2c2e",
 		"scrollbarSlider.background": "#2c2c2e",
 		"scrollbarSlider.hoverBackground": "#424245"
