@@ -5,3 +5,4 @@ blurple:    82AAFF
 green:      C3E88D
 light blue: 89DDFF
 orange:     fd9b39
+gray:       cfcfd1

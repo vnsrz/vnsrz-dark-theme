@@ -136,7 +136,9 @@
 			"scope": [
 				"keyword",
 				"punctuation.definition.directive.c",
-				"punctuation.definition.directive.cpp"
+				"punctuation.definition.directive.cpp",
+				"punctuation.section.angle-brackets.begin.template.call.cpp",
+				"punctuation.section.angle-brackets.end.template.call.cpp"
 			],
 			"settings": {
 				"foreground": "#ff4f66"
