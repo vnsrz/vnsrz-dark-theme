@@ -13,13 +13,14 @@
 
 		"editor.lineHighlightBackground": "#2c2c2e",
 		"editorLineNumber.foreground": "#4f555d",
-		"editorIndentGuide.background1": "#333338",
-		"editorIndentGuide.activeBackground1": "#444448",
+		"editorIndentGuide.background1": "#3333385f",
+		"editorIndentGuide.activeBackground1": "#44444893",
 		"editorOverviewRuler.background": "#1d1d1f",
     	"editorOverviewRuler.border": "#1d1d1f",
 		"editorWidget.background":"#313133",
 		"editorWidget.foreground": "#bbbbbf",
     	"editorHoverWidget.background":"#313133",
+		"editorGroup.border": "#ffffff00",
 
 		"activityBar.background": "#232325",
 		"activityBar.foreground": "#cccccf",
