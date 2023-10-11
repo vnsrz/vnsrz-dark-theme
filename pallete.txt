@@ -1,8 +1,8 @@
 purple:     C792EA
-red:        ff4f66
+red:        ff4f66  f55f73
 yellow:     FFCB6B
 blurple:    82AAFF
 green:      C3E88D
-light blue: 89DDFF
-orange:     fd9b39
+light blue: 89DDFF  92d5ff
+orange:     fd9b39  FDAD5D
 gray:       cfcfd1

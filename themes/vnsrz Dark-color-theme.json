@@ -21,7 +21,7 @@
 		"editorWidget.foreground": "#bbbbbf",
     	"editorHoverWidget.background":"#313133",
 
-		"activityBar.background": "#1d1d1f",
+		"activityBar.background": "#232325",
 		"activityBar.foreground": "#cccccf",
 		"activityBarBadge.foreground": "#e9f7ff",
 
@@ -69,8 +69,8 @@
     	"dropdown.foreground": "#bebec0",
 		"welcomePage.background": "#1d1d1f",
 
-		"panel.background": "#232325",
-		"panel.border": "#2e2e3000",
+		"panel.background": "#1d1d1f",
+		"panel.border": "#2e2e30",
 		"panelTitle.activeForeground": "#bebec0",
 		"panelTitle.inactiveForeground": "#808080",
 
@@ -123,7 +123,6 @@
 		{
 			"name": "Storage",
 			"scope": [
-				"keyword",
 				"storage.type",
 				"storage.modifier",
 			],
@@ -138,7 +137,7 @@
 				"punctuation.definition.directive.c",
 				"punctuation.definition.directive.cpp",
 				"punctuation.section.angle-brackets.begin.template.call.cpp",
-				"punctuation.section.angle-brackets.end.template.call.cpp"
+				"punctuation.section.angle-brackets.end.template.call.cpp",
 			],
 			"settings": {
 				"foreground": "#ff4f66"
@@ -176,15 +175,15 @@
 				
 			],
 			"settings": {
-				"foreground": "#89DDFF",
+				"foreground": "#92d5ff",
 			}
 		},
 		{
 			"name": "Purple",
 			"scope": [
-				"punctuation.separator.annotation.result.python",
 				"punctuation.separator.pointer-access.c",
 				"punctuation.separator.pointer-access.cpp",
+				"variable.other.global.cpp",
 			],
 			"settings": {
 				"foreground": "#C792EA",
@@ -207,7 +206,7 @@
 				"keyword.other.using.directive.cpp",
 			],
 			"settings": {
-				"foreground": "#f55f73",
+				"foreground": "#ff4f66",
 			}
 		},
 		{
@@ -256,7 +255,7 @@
 				"meta.function-call",
 				"variable.function",
 				"support.function",
-				"keyword.other.special-method"
+				"keyword.other.special-method",
 			],
 			"settings": {
 				"foreground": "#C3E88D"
@@ -282,7 +281,7 @@
 			}
 		},
 		{
-			"name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
+			"name": "Number, Constant, Tag Attribute, Embedded",
 			"scope": [
 				"constant.numeric",
 				"constant.language",
@@ -293,7 +292,7 @@
 				"keyword.other"
 			],
 			"settings": {
-				"foreground": "#fd9b39",
+				"foreground": "#FDAD5D",
 			}
 		},
 		{
@@ -303,7 +302,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#89DDFF",
+				"foreground": "#FDAD5D",
 			}
 		},
 
@@ -335,20 +334,22 @@
 				"support.other.namespace.php",
 				"markup.changed.git_gutter",
 				"support.type.sys-types",
-				"variable.other.global.cpp",
+				//"variable.other.global.cpp",
 				"support.type.exception.python"
 			],
 			"settings": {
-				"foreground": "#C792EA"
+				"foreground": "#92d5ff"
 			}
 		},
 		{
 			"name": "Entity Types",
 			"scope": [
-				"support.type"
+				"support.type",
+				"meta.function.parameters.python",
+				"punctuation.separator.annotation.result.python",
 			],
 			"settings": {
-				"foreground": "#B2CCD6"
+				"foreground": "#92d5ff"
 			}
 		},
 		{
@@ -477,7 +478,7 @@
 				"string.regexp"
 			],
 			"settings": {
-				"foreground": "#89DDFF"
+				"foreground": "#92d5ff"
 			}
 		},
 		{
@@ -486,7 +487,7 @@
 				"constant.character.escape"
 			],
 			"settings": {
-				"foreground": "#89DDFF"
+				"foreground": "#92d5ff"
 			}
 		},
 		{
@@ -527,7 +528,7 @@
 				"source.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#89DDFF"
+				"foreground": "#92d5ff"
 			}
 		},
 		{
@@ -545,7 +546,7 @@
 				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#fd9b39"
+				"foreground": "#FDAD5D"
 			}
 		},
 		{
