@@ -175,7 +175,6 @@
 			"name": "C placeholders",
 			"scope": [
 				"string constant.other.placeholder",
-				"punctuation.separator.delimiter.c"
 			],
 			"settings": {
 				"foreground": "#FFCB6B",
@@ -258,7 +257,7 @@
 				"markup.deleted.git_gutter"
 			],
 			"settings": {
-				"foreground": "#f07178"
+				"foreground": "#ff4f66"
 			}
 		},
 		{
@@ -280,7 +279,7 @@
 				"meta.block variable.other"
 			],
 			"settings": {
-				"foreground": "#f07178"
+				"foreground": "#ff4f66"
 			}
 		},
 		{
@@ -290,7 +289,7 @@
 				"string.other.link"
 			],
 			"settings": {
-				"foreground": "#f07178"
+				"foreground": "#C3E88D"
 			}
 		},
 		{
@@ -330,7 +329,7 @@
 				"markup.inserted.git_gutter",
 				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js",
 				"punctuation.definition.string.begin.python",
-				"punctuation.definition.string.end.python"
+				"punctuation.definition.string.end.python",
 			],
 			"settings": {
 				"foreground": "#FFCB6B"
@@ -595,7 +594,7 @@
 				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#f07178"
+				"foreground": "#ff4f66"
 			}
 		},
 		{
@@ -623,7 +622,7 @@
 				"punctuation.definition.list_item.markdown"
 			],
 			"settings": {
-				"foreground": "#EEFFFF"
+				"foreground": "#cfcfd1"
 			}
 		},
 		{
@@ -649,10 +648,20 @@
 			"scope": [
 				"markdown.heading",
 				"markup.heading | markup.heading entity.name",
-				"markup.heading.markdown punctuation.definition.heading.markdown"
+				"markup.heading.markdown punctuation.definition.heading.markdown",
 			],
 			"settings": {
-				"foreground": "#C3E88D"
+				"foreground": "#C3E88D",
+			}
+		},
+		{
+			"name": "Markdown - Heading Text",
+			"scope": [
+				"entity.name.section.markdown"
+			],
+			"settings": {
+				//"fontStyle": "italic",
+				"foreground": "#82AAFF"
 			}
 		},
 		{
@@ -662,7 +671,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#f07178"
+				"foreground": "#ff4f66"
 			}
 		},
 		{
@@ -673,7 +682,7 @@
 			],
 			"settings": {
 				"fontStyle": "bold",
-				"foreground": "#f07178"
+				"foreground": "#ff4f66"
 			}
 		},
 		{
@@ -688,7 +697,7 @@
 			],
 			"settings": {
 				"fontStyle": "bold",
-				"foreground": "#f07178"
+				"foreground": "#ff4f66"
 			}
 		},
 		{
@@ -698,7 +707,7 @@
 			],
 			"settings": {
 				"fontStyle": "underline",
-				"foreground": "#F78C6C"
+				"foreground": "#fd9b39"
 			}
 		},
 		{
@@ -725,7 +734,7 @@
 				"string.other.link.title.markdown"
 			],
 			"settings": {
-				"foreground": "#82AAFF"
+				"foreground": "#C792EA"
 			}
 		},
 		{
@@ -735,6 +744,18 @@
 			],
 			"settings": {
 				"foreground": "#C792EA"
+			}
+		},
+		{
+			"name": "Markdown - Raw string",
+			"scope": [
+				"markup.inline.raw.string.markdown",
+				"punctuation.definition.raw.markdown",
+				"markup.fenced_code.block.markdown",
+				"punctuation.definition.markdown"
+			],
+			"settings": {
+				"foreground": "#FFCB6B"
 			}
 		},
 		{
@@ -749,10 +770,11 @@
 		{
 			"name": "Markup - Raw Block",
 			"scope": [
-				"markup.raw.block"
+				"markup.raw.block",
+				"constant.other.reference.link.markdown"
 			],
 			"settings": {
-				"foreground": "#C792EA"
+				"foreground": "#89DDFF"
 			}
 		},
 		{
@@ -781,7 +803,7 @@
 				"punctuation.section.class.end"
 			],
 			"settings": {
-				"foreground": "#EEFFFF"
+				"foreground": "#cfcfd1"
 			}
 		},
 		{
@@ -804,12 +826,22 @@
 			}
 		},
 		{
+			"name": "Markdown - List",
+			"scope": [
+				"punctuation.definition.list.begin.markdown"
+			],
+			"settings": {
+				//"fontStyle": "bold",
+				"foreground": "#C792EA"
+			}
+		},
+		{
 			"name": "Markup - Table",
 			"scope": [
 				"markup.table"
 			],
 			"settings": {
-				"foreground": "#EEFFFF"
+				"foreground": "#cfcfd1"
 			}
 		}
 	]
