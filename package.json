@@ -2,7 +2,7 @@
   "name": "vnsrz-dark",
   "displayName": "vnsrz Dark",
   "description": "my silly little theme",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "engines": {
     "vscode": "^1.83.0"
   },
