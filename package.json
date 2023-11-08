@@ -2,7 +2,8 @@
   "name": "vnsrz-dark",
   "displayName": "vnsrz Dark",
   "description": "my silly little theme",
-  "version": "0.0.1",
+  "version": "0.1.0",
+  "publisher": "vnsrz",
   "engines": {
     "vscode": "^1.83.0"
   },
@@ -14,7 +15,12 @@
       {
         "label": "vnsrz Dark",
         "uiTheme": "vs-dark",
-        "path": "./themes/vnsrz Dark-color-theme.json"
+        "path": "./themes/vnsrz-dark-color-theme.json"
+      },
+      {
+        "label": "vnsrz Storm",
+        "uiTheme": "vs-dark",
+        "path": "./themes/vnsrz-storm-color-theme.json"
       }
     ]
   }
