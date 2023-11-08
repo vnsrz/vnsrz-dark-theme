@@ -9,5 +9,5 @@ gray:       cfcfd1
 
 bg dark:    1a1d24  1b1e25 
 bg default: 21242c
-313642 2b2f39 252931
+313642 2b2f39 252931 3e4657
 232325
