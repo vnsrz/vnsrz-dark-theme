@@ -63,11 +63,11 @@
 		"editorGroupHeader.tabsBackground": "#1b1e25",
 		"editorGroup.emptyBackground":"#1b1e25",
 
-		"editorSuggestWidget.background": "#1b1e25",
+		"editorSuggestWidget.background": "#2b2f39",
 		"editorSuggestWidget.border": "#ff000000",
-    	"editorSuggestWidget.selectedBackground": "#1b1e25",
+    	"editorSuggestWidget.selectedBackground": "#3e4657",
 		"editorSuggestWidget.selectedForeground": "#bebec8",
-		"editorSuggestWidget.foreground": "#aaaaac",
+		"editorSuggestWidget.foreground": "#949494",
 		"editorSuggestWidget.highlightForeground": "#b3b3b3",
 
 		"input.background":"#1b1e25",
